@@ -27,13 +27,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+A: .forEach does a task on each array element, while .map does something and then returns the results of that task as a new array. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A: Callback function is a function that is called by a higher order function which takes that call back and uses the results of the original function running as the input of the higher order function. 
 
 3. What is closure?
 
+A: Closure is a function and aspects outside (lexical environment) of it that it uses to complete its task. 
+
+
 4. Describe the four rules of the 'this' keyword.
 
+A: 1) Window Binding if this is called outside of a constructor or class.
+   2) Implicit Binding if called inside of a fucntion.
+   3) New Binding refers to a specific object created by a constructor or class
+   4) Explicit binding using call and apply and bind it explicitly binds to an item.
+
 5. Why do we need super() in an extended class?
+
+A: Super is essentially what pulls the properties from the parent class. If it was not there, access to those classes would not be accessable. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -41,11 +55,11 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [X] Create a forked copy of this project
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [X] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
